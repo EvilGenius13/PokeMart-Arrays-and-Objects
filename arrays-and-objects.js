@@ -42,7 +42,7 @@ function listPokemon() {
 }
 listPokemon()
 
-//Merge two arrays (pokeballs - itemprice) --need help from Alex
+//Merge two arrays (pokeballs - itemprice)
 function mergeArray() {
     pokeBalls.forEach((pokeball, i) => {
         shoppingCart.push({
