@@ -44,10 +44,10 @@ listPokemon()
 
 //Merge two arrays (pokeballs - itemprice) --need help from Alex
 function mergeArray() {
-    pokeBalls.forEach((pokeball) => {
+    pokeBalls.forEach((pokeball, i) => {
         shoppingCart.push({
             type: pokeball,
-            price: itemPrice,
+            price: itemPrice[i],
         })
     })
 }
